@@ -24,7 +24,7 @@ from aiogram.client.session.aiohttp import AiohttpSession
 BOT_TOKEN = "9267099079:AAFsyvfBkNWjtOgx_VMNzwOLbiDpc4r2j7Y"
 ADMIN_ID = 7878666092
 ADMIN_ID_2 = 5171953150
-DB_PATH = "bazashell.sql"
+DB_PATH = "data/bazashell.sql"
 CONTACT = "@shellwo"
 
 SPONSOR_CHECK_CHANNEL = "@tut_botes"
