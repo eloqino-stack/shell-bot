@@ -21,7 +21,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.client.session.aiohttp import AiohttpSession
 
 # ============ КОНФИГ ============
-BOT_TOKEN = "9267099079:AAFsyvfBkNWjtOgx_VMNzwOLbiDpc4r2j7Y"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_ID = 7878666092
 ADMIN_ID_2 = 5171953150
 DB_PATH = "data/bazashell.sql"
